@@ -1,17 +1,110 @@
 /* Header Font - font-family: "Delius Unicase", cursive; */
 /* Content Font - font-family: "Zain", sans-serif; */
-
+:root {
+  --main-color: rgb(137, 15, 148);
+  --background-color: rgb(236, 231, 238);
+  --page-link-color: rgb(236, 212, 236);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --border-radius: 10px;
+}
+body {
+  font-family: "Zain", sans-serif;
+}
+.navbar-brand {
+  font-family: "Delius Unicase", cursive;
+  font-weight: 600;
+}
+.navbar-nav {
+  font-family: "Zain", sans-serif;
+}
+.hero {
+  margin-top: 80px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
 h1 {
+  font-size: 76px;
   font-family: "Delius Unicase", cursive;
   font-weight: bold;
 }
-
 h2 {
-  font-family: "Zain", sans-serif;
-  opacity: 0.7;
+  font-size: 38px;
+  font-weight: 500;
 }
-
+h3 {
+  opacity: 0.6;
+  font-size: 38px;
+  padding-top: 20px;
+}
 p {
   font-family: "Zain", sans-serif;
   font-size: 16px;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.navigation-links a {
+  display: flex;
+  border-radius: 4px;
+  margin: 20px;
+  justify-content: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.contact-link {
+  background-color: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.contact-link:hover {
+  background-color: var(--page-link-color);
+  box-shadow: var(--box-shadow);
+  color: black;
+}
+label {
+  border: 1px solid black;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 18px;
+}
+@media (max-width: 756px) {
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
+  .img-fluid {
+    display: none;
+  }
+  .card-title {
+    text-align: center;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .email-link {
+    font-size: 14px;
+  }
+  p {
+    text-align: center;
+  }
 }
