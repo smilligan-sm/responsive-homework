@@ -1,0 +1,17 @@
+/* Header Font - font-family: "Delius Unicase", cursive; */
+/* Content Font - font-family: "Zain", sans-serif; */
+
+h1 {
+  font-family: "Delius Unicase", cursive;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Zain", sans-serif;
+  opacity: 0.7;
+}
+
+p {
+  font-family: "Zain", sans-serif;
+  font-size: 16px;
+}
