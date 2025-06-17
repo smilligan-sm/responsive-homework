@@ -34,19 +34,18 @@ h3 {
   margin: 0;
   font-weight: bold;
   color: var(--main-color);
+  font-family: "Delius Unicase", cursive;
 }
 h1 {
   font-size: 76px;
-  font-family: "Delius Unicase", cursive;
   padding-top: 120px;
 }
 h2 {
-  font-size: 44px;
+  font-size: 38px;
   margin-bottom: 20px;
 }
 h3 {
-  font-size: 32px;
-  font-family: "Delius Unicase", cursive;
+  font-size: 28px;
   padding-top: 20px;
 }
 p {
@@ -164,12 +163,13 @@ img {
   }
   h1 {
     font-size: 38px;
+    padding-top: 50px;
   }
   h2 {
     font-size: 22px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .email-link {
     font-size: 14px;
