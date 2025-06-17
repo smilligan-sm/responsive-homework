@@ -1,14 +1,16 @@
 /* Header Font - font-family: "Delius Unicase", cursive; */
 /* Content Font - font-family: "Zain", sans-serif; */
 :root {
-  --main-color: rgb(137, 15, 148);
-  --background-color: rgb(236, 231, 238);
+  --main-color: #ffe81f;;
+  --background-color: #0d0d0d;
   --page-link-color: rgb(236, 212, 236);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --border-radius: 10px;
 }
 body {
   font-family: "Zain", sans-serif;
+  background: linear-gradient(181deg,rgba(0, 0, 0, 1) 0%, rgba(34, 34, 35, 1) 100%);
+  color: #e0e0e0;
 }
 .navbar-brand {
   font-family: "Delius Unicase", cursive;
@@ -19,28 +21,32 @@ body {
   font-family: "Zain", sans-serif;
 }
 .hero {
-  background-color: #F8F9FA;
-  margin-top: 55px;
+  background-image: url("stars.jpg");
+  background-blend-mode: lighten;
+  background-position: no-repeat;
+  background-size: contain;
+  margin-top: 40px;
 }
 h1,
 h2,
 h3 {
   text-align: center;
   margin: 0;
+  font-weight: bold;
+  color: var(--main-color);
 }
 h1 {
   font-size: 76px;
   font-family: "Delius Unicase", cursive;
-  font-weight: bold;
   padding-top: 120px;
 }
 h2 {
   font-size: 44px;
-  font-weight: 700;
+  margin-bottom: 20px;
 }
 h3 {
-  opacity: 0.6;
-  font-size: 38px;
+  font-size: 32px;
+  font-family: "Delius Unicase", cursive;
   padding-top: 20px;
 }
 p {
@@ -62,14 +68,20 @@ p {
   text-transform: capitalize;
 }
 .contact-link {
-  background-color: var(--main-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+  font-weight: bold;
+  font-size: 20px;
   margin-bottom: 50px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: #000000;
 }
 .contact-link:hover {
-  background-color: var(--page-link-color);
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 0 20px 5px #ffe81f;
+  background-color: #ffe81f;
   color: black;
 }
 label {
@@ -79,12 +91,21 @@ label {
   margin: 5px;
   font-size: 14px;
 }
+.card {
+  border: 1px solid var(--main-color);
+  box-shadow: 0 0 15px #ffe81f55;
+  background-color: #000000;
+}
 .card-title {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
 }
 .card-text {
   font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
 }
 .primary-link {
   border-radius: 4px;
@@ -94,7 +115,12 @@ label {
   text-transform: capitalize;
   background: var(--main-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: #000000;
+}
+.primary-link:hover {
+  box-shadow: 0 0 20px 5px #ffe81f;
+  background-color: #ffe81f;
+  color: black;
 }
 .button-container {
   margin-top: 15px;
@@ -106,6 +132,17 @@ label {
 .bg-pink {
   background-color: #dd2490 !important;
   color: #fff;
+}
+.bg-orange {
+  background-color: #e56008 !important;
+  color: #fff;
+}
+.bg-green {
+  background-color: #96d200 !important;
+  color: #fff;
+}
+img {
+  opacity: 0.9;
 }
 @media (max-width: 766px) {
   .primary-link {
