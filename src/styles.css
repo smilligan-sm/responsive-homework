@@ -52,6 +52,13 @@ p {
   font-family: "Zain", sans-serif;
   font-size: 16px;
 }
+.about-section p {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.about-section h3 {
+  margin-bottom: 50px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -143,6 +150,12 @@ label {
 img {
   opacity: 0.9;
 }
+.youtube {
+  margin-left: 50px;
+}
+.sarahs-img {
+  border-radius: 50%;
+}
 @media (max-width: 766px) {
   .primary-link {
     display: block;
@@ -174,5 +187,8 @@ img {
   }
   .email-link {
     font-size: 14px;
+  }
+  .about-section h3 {
+    margin-bottom: 20px;
   }
 }
