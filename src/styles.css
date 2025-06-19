@@ -168,7 +168,7 @@ img {
     margin-top: 5px;
     max-width: 200px;
   }
-  .img-fluid {
+  .homepage .img-fluid {
     display: none;
   }
   .card-title {
@@ -181,7 +181,7 @@ img {
   }
   h1 {
     font-size: 38px;
-    padding-top: 50px;
+    padding-top: 80px;
   }
   h2 {
     font-size: 22px;
