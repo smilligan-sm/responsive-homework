@@ -151,6 +151,10 @@ label {
   background-color: #96d200 !important;
   color: #fff;
 }
+.bg-teal {
+  background-color: #1dc2ce !important;
+  color: #fff;
+}
 img {
   opacity: 0.9;
 }
