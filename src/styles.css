@@ -59,8 +59,9 @@ p {
   letter-spacing: 2px;
   opacity: var(--opacity);
 }
-.about-section h3 {
+.about-section {
   margin-bottom: 50px;
+  margin-top: 100px;
 }
 .navigation-links {
   display: flex;
