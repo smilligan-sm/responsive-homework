@@ -177,7 +177,7 @@ img {
     margin-top: 5px;
     max-width: 200px;
   }
-  .homepage .img-fluid {
+  .homepage {
     display: none;
   }
   .card-title {
