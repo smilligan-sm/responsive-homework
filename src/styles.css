@@ -169,6 +169,11 @@ img {
 .sarahs-img {
   border-radius: 50%;
 }
+.open-source {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: bold;
+}
 @media (max-width: 766px) {
   .primary-link {
     display: block;
